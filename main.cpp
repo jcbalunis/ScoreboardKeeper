@@ -50,7 +50,7 @@ int main()
 
                 for (int row = 0; row < score_Board.size(); row ++)
                 { 
-                        cout<< "Player : " << P_NUMBER<< " ";
+                        cout<< "Player " << P_NUMBER<< ": ";
                         for(int col = 0; col < score_Board[row].size(); col ++)
                         { 
                                 cout<< score_Board[row][col];
