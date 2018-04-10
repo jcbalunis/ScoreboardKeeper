@@ -33,6 +33,7 @@ int main()
         }
         else
         {
+               cout<< "SCOREBOARD" <<endl;
                score_Board.resize(teams);
                for( int row = 0; row < score_Board.size(); row ++)
                {
